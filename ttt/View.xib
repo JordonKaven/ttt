@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rQ-9g-fgq">
+                    <rect key="frame" x="0.0" y="450" width="107" height="30"/>
+                    <color key="backgroundColor" red="0.21960784310000001" green="0.5450980392" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6z-RI-fxo">
+                    <rect key="frame" x="107" y="450" width="106" height="30"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.3803921569" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button2"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4US-nF-cB5">
+                    <rect key="frame" x="214" y="450" width="106" height="30"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.56078431370000004" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button3"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="S6z-RI-fxo" firstAttribute="top" secondItem="0rQ-9g-fgq" secondAttribute="top" id="9BF-kq-mnT"/>
+                <constraint firstAttribute="trailing" secondItem="4US-nF-cB5" secondAttribute="trailing" id="DHH-cU-O14"/>
+                <constraint firstItem="0rQ-9g-fgq" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:3" id="Dck-p4-Pmc"/>
+                <constraint firstItem="4US-nF-cB5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:3" id="HpG-tO-2aj"/>
+                <constraint firstItem="0rQ-9g-fgq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aea-aW-Q8m"/>
+                <constraint firstAttribute="bottom" secondItem="0rQ-9g-fgq" secondAttribute="bottom" id="fhT-9e-TFj"/>
+                <constraint firstAttribute="bottom" secondItem="4US-nF-cB5" secondAttribute="bottom" id="qBn-Iz-FmN"/>
+                <constraint firstItem="S6z-RI-fxo" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:3" id="vjn-lF-s06"/>
+                <constraint firstItem="S6z-RI-fxo" firstAttribute="leading" secondItem="0rQ-9g-fgq" secondAttribute="trailing" id="w5c-F5-FSp"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-15" y="321"/>
+        </view>
+    </objects>
+</document>
