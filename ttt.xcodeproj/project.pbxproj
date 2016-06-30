@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5455C11C9BA0C900D59C11 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5455C01C9BA0C900D59C11 /* View.xib */; };
 		5CE3709B1C95D57600144900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE3709A1C95D57600144900 /* main.m */; };
 		5CE3709E1C95D57600144900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE3709D1C95D57600144900 /* AppDelegate.m */; };
 		5CE370A11C95D57600144900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE370A01C95D57600144900 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C5455C01C9BA0C900D59C11 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5CE370961C95D57600144900 /* ttt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE3709A1C95D57600144900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CE3709C1C95D57600144900 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				5CE3709D1C95D57600144900 /* AppDelegate.m */,
 				5CE3709F1C95D57600144900 /* ViewController.h */,
 				5CE370A01C95D57600144900 /* ViewController.m */,
+				5C5455C01C9BA0C900D59C11 /* View.xib */,
 				5CE370A21C95D57600144900 /* Main.storyboard */,
 				5CE370A51C95D57600144900 /* Assets.xcassets */,
 				5CE370A71C95D57600144900 /* LaunchScreen.storyboard */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5455C11C9BA0C900D59C11 /* View.xib in Resources */,
 				5CE370A91C95D57600144900 /* LaunchScreen.storyboard in Resources */,
 				5CE370A61C95D57600144900 /* Assets.xcassets in Resources */,
 				5CE370A41C95D57600144900 /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 				5CE370C51C95D57600144900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CE370C61C95D57600144900 /* Build configuration list for PBXNativeTarget "tttTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				5CE370C81C95D57600144900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CE370C91C95D57600144900 /* Build configuration list for PBXNativeTarget "tttUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				5CE370CB1C95D57600144900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

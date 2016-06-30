@@ -2,7 +2,7 @@
 //  ViewController.m
 //  ttt
 //
-//  Created by 彭柯柱 on 16/3/14.
+//  Created by Endian on 16/3/14.
 //  Copyright © 2016年 彭柯柱. All rights reserved.
 //
 
@@ -16,7 +16,17 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+
+  NSString *str1 = @"a";
+  NSString *str2 = @"a";
+  
+  if (str1 == str2) {
+    NSLog(@"str1 == str2");
+    NSLog(@"%ld  %ld",&str1,&str2);
+  }else {
+    NSLog(@"str1 != str2");
+    NSLog(@"%ld  %ld",&str1,&str2);
+  }
 }
 
 - (void)didReceiveMemoryWarning {
