@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  NSString *str1 = @"a";
-  NSString *str2 = @"a";
+  NSString *str1 = @"123";
+  NSString *str2 = @"123";
   
   if ([str1 isEqualToString: str2]) {
     NSLog(@"str1 == str2");
