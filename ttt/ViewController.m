@@ -29,10 +29,10 @@
   }
  //But I still don't know why.
  //Who can help me?
-  
+//  [UIFont systemFontOfSize:13];
   UILabel *testLabel = [[UILabel alloc] init];
-  testLabel.text = @"抱歉，该笔订单已被商户取消,\n您无需进行配送。";
-  CGRect rect = [testLabel.text boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, 19) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:@13} context:nil];
+  testLabel.text = @"抱歉，该笔订单已被商户取消,";
+  CGRect rect = [testLabel.text boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, 19) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13]} context:nil];
   NSLog(@"%@",NSStringFromCGRect(rect));
 }
 
