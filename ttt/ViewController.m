@@ -20,7 +20,7 @@
   NSString *str1 = @"a";
   NSString *str2 = @"a";
   
-  if (str1 == str2) {
+  if ([str1 isEqualToString: str2]) {
     NSLog(@"str1 == str2");
     NSLog(@"%ld  %ld",&str1,&str2);
   }else {
