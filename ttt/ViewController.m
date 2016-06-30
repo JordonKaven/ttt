@@ -27,6 +27,7 @@
     NSLog(@"str1 != str2");
     NSLog(@"%ld  %ld",&str1,&str2);
   }
+ //But I still don't know why.
 }
 
 - (void)didReceiveMemoryWarning {
